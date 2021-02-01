@@ -1,4 +1,4 @@
-package cmp
+package number
 
 func LessUint32(a, b uint32) bool {
 	return int32(a-b) < 0

@@ -1,4 +1,4 @@
-package cmp
+package number
 
 func MinInt(a, b int) int {
 	if a < b {
