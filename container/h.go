@@ -22,6 +22,6 @@ func (h H) GetString(key string) string {
 	return h[key].(string)
 }
 
-func (h H) Merge(other H) {
-	MergeMap(h, other)
+func (h H) Extend(other H) {
+	ExtendMap(h, other)
 }
