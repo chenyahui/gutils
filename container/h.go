@@ -23,9 +23,5 @@ func (h H) GetString(key string) string {
 }
 
 func (h H) Merge(other H) {
-	for key, value := range other {
-		if _, ok := h[key]; !ok {
-			h[key] = value
-		}
-	}
+	MergeMap(h, other)
 }
