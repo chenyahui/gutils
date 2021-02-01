@@ -1,8 +1,8 @@
-package convert
+package str
 
 import "strconv"
 
-func Int64ToStr(val int64) string {
+func FromInt64(val int64) string {
 	return strconv.FormatInt(val, 10)
 }
 
