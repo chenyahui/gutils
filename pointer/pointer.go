@@ -4,10 +4,6 @@ func Bool(x bool) *bool {
 	return &x
 }
 
-func Float32(x float32) *float32 {
-	return &x
-}
-
 func Int(x int) *int {
 	return &x
 }
@@ -16,7 +12,35 @@ func Int32(x int32) *int32 {
 	return &x
 }
 
+func UInt32(x uint32) *uint32 {
+	return &x
+}
+
 func Int64(x int64) *int64 {
+	return &x
+}
+
+func UInt64(x uint64) *uint64 {
+	return &x
+}
+
+func Int8(x int8) *int8 {
+	return &x
+}
+
+func UInt8(x uint8) *uint8 {
+	return &x
+}
+
+func Int16(x int16) *int16 {
+	return &x
+}
+
+func UInt16(x uint16) *uint16 {
+	return &x
+}
+
+func Float32(x float32) *float32 {
 	return &x
 }
 
